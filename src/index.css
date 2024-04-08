@@ -1,12 +1,48 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-.App {
-    background-color: #024; /* A deep blue background; you can change this to any color you like */
+
+main{
+    /* background: linear-gradient(135deg, #f2903b, #73f16d); */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    height: 100vh;
+    flex-direction: column;
+    gap: 4rem;
+
     
+}
+video{
+    border:12px solid #f1f1f1;
+    border-radius: 8px;
+    
+}
+.gradient-background {
+    background: linear-gradient(92deg,#f2903b,#f2903b,#73f16d);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .bottom-bar{
+    height: 120px;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  img{
+    height: 100%;
   }
