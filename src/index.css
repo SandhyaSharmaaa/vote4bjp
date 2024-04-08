@@ -6,7 +6,7 @@ main{
     
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     gap: 3rem;
@@ -49,8 +49,8 @@ video{
     align-items: center;
     padding: 5px 14px;
   }
-  img{
-    height: 120px;
+  .image-flower{
+    height: 90px;
   }
   .text{
     display: flex;
@@ -70,5 +70,15 @@ video{
 .video-div{
     padding: 0 16px;
 }
+  }
+  /* .image-text{
+    height: 200px;
+    width: 200px;
+
+  } */
+  h1{
+    margin-top: 1rem ;
+    color: white;
+    font-size: 32px;
   }
  
