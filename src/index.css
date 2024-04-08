@@ -3,20 +3,25 @@
 @import 'tailwindcss/utilities';
 
 main{
-    /* background: linear-gradient(135deg, #f2903b, #73f16d); */
+    
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3rem;
 
     
 }
 video{
-    border:12px solid #f1f1f1;
+    border:8px solid #f1f1f1;
     border-radius: 8px;
+
     
+    
+}
+.video-div{
+    padding: 0 8px;
 }
 .gradient-background {
     background: linear-gradient(92deg,#f2903b,#f2903b,#73f16d);
@@ -58,5 +63,12 @@ video{
         font-size: 20px;
         line-height: 36px;
     }
+video{
+    border:12px solid #f1f1f1;
+
+}
+.video-div{
+    padding: 0 16px;
+}
   }
  
