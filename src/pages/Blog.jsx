@@ -1,4 +1,4 @@
-import videoFile from "../assets/one.mp4";
+import videoFile from "../assets/Final.mp4";
 import logo from "../assets/logo.png";
 // import bjp from "../assets/bjp.png"
 const App = () => {
@@ -14,10 +14,7 @@ const App = () => {
       </div>
       <div className="bottom-bar">
         <div className="text">
-          नमस्कार, आपसे आग्रह है कि कार्यकर्ता परिवारों व
-          समर्थक परिवारों के वोट जल्द से जल्द डलवाकर मतदान बढ़ायें। माता– बहनों
-          से अनुरोध है महिलाओं का मतदान प्रतिशत बढ़ायें। <br /> भारत माता की जय!!
-          धन्यवाद।
+        आइए, 4 अप्रैल को हमारे यशश्वी प्रधान मंत्री श्री नरेंद्र मोदी जी का हार्दिक स्वागत करें, और हम सब जमोई के पावन धरती पर लाखों की तादात में एकत्रित होकर उनके उज्वल भारत के सपनों को पूरा करने में उनका साथ दें। - सम्राट चौधरी
         </div>
         <img className="image-flower" src={logo} />
       </div>
